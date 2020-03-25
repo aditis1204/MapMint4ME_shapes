@@ -1,0 +1,47 @@
+        <!-- <h2>
+            <button class="btn btn-sm btn-danger btn-block btn-circle-sm" style="float:left">
+                <span class="glyphicon glyphicon-cloud-download" aria-hidden="true"></span>
+            </button>
+            &nbsp;Import your data
+        </h2> -->
+        <ol class="breadcrumb">
+            <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> </a></li>
+            <li class="active"><span class="glyphicon glyphicon-cloud-download" aria-hidden="true"></span> </li>
+            <!-- <li class="pull-right">Status: <i class="glyphicon glyphicon-signal"></i> / <i class="glyphicon glyphicon-map-marker"></i> </li> -->
+        </ol>
+        <div class="mm4me_content">
+            <p>
+	    	Before going to the field to collect data, please ensure that you have downloaded the latest version of the Data and related Templates. Once complete, you will be able to start recording your data.
+            </p>
+            <a class="btn btn-success" href="login.html"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add a server</a>
+        </div>
+        <ul class="media-list">
+        <script type="template/text" id="servers_list_template">
+        <li class="media">
+            <div class="media-left media-top">
+                <a href="#">
+                    <i class="media-object glyphicon glyphicon-cloud"></i>
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading" id="mbtitle_[id]"><a href="#mbtitle_[id]">[title]</a></h4>
+
+                <h5><i class="glyphicon glyphicon-hourglass"></i> [time]</h5>
+
+                <div class="row">
+                    <div class="col-xs-7">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                0%
+                            </div>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div class="col-xs-5">
+                        <button class="btn btn-default"><i class="glyphicon glyphicon-download"></i> Import</button>
+                    </div>
+                </div>
+            </div>
+        </li>
+        </script>
+        </ul>
